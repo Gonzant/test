@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<Configuration address="localhost" port="5002" fps="24" useServer="0">
+	<Meshes>
+		<Mesh name='cylinderShort' path='meshes/cylinderShort100.obj' />
+		<Mesh name='cylinderLong' path='meshes/cylinderLong100.obj' />
+	</Meshes>
+    <FrameConf>
+		<Pixel id='0' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='-51' y='0' z='51' />
+			</Render>
+		</Pixel>
+        
+        <Pixel id='1' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='-17' y='0' z='51' />
+			</Render>
+		</Pixel>
+        
+        <Pixel id='2' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='17' y='0' z='51' />
+			</Render>
+		</Pixel>
+        
+        <Pixel id='3' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='51' y='0' z='51' />
+			</Render>
+		</Pixel>
+        
+        <Pixel id='4' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='51' y='0' z='17' />
+			</Render>
+		</Pixel>
+        
+        <Pixel id='5' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='51' y='0' z='-17' />
+			</Render>
+		</Pixel>
+        
+        <Pixel id='6' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='51' y='0' z='-51' />
+			</Render>
+		</Pixel>
+        
+        <Pixel id='7' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='17' y='0' z='-51' />
+			</Render>
+		</Pixel>
+        
+        <Pixel id='8' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='-17' y='0' z='-51' />
+			</Render>
+		</Pixel>
+        
+        <Pixel id='9' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='-51' y='0' z='-51' />
+			</Render>
+		</Pixel>
+        
+        <Pixel id='10' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='-51' y='0' z='-17' />
+			</Render>
+		</Pixel>
+        <Pixel id='11' r='255' g='255' b='255' a='255' device='1'>
+			<Render mesh='cylinderLong'>
+                <Front x='0' y='1' z='0' />
+                <Up x='0' y='0' z='0' />
+                <Position x='-51' y='0' z='17' />
+			</Render>
+		</Pixel>                    
+	</FrameConf>
+</Configuration>
